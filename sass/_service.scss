@@ -1,0 +1,58 @@
+.service{
+    .service__top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 136px;
+        margin-bottom: 92px;
+        .service__title{
+            font-weight: 700;
+            color: #777E90;
+            margin-bottom: 8px;
+        }
+        .service__subtitle{
+            font-size: 48px;
+            font-weight: 700;
+            color: #23262F;
+            margin-bottom: 32px;
+        }
+        .service__btn{
+            padding: 16px 24px;
+            border: none;
+            border-radius: 90px;
+            background-color: #3B71FE;
+            color: #FCFCFD;
+            font-size: 16px;
+            font-weight: 700;
+            transition: .5s;
+            &:hover{
+                background-color: #000;
+                transform: translateY(-10px);
+            }
+        }
+    }
+    .service__wrapper{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-gap: 24px;
+        .service__card{
+            width: 357px;
+            padding: 64px 32px;
+            background-color: #F4F5F6;
+            border-radius: 20px;
+            img{
+                margin-bottom: 36px;
+            }
+            .service__inf{
+                font-size: 16px;
+                font-weight: 500;
+                color: #23262F;
+                margin-bottom: 16px;
+            }
+            .service__desc{
+                color: #777E90;
+                max-width: 293px;
+            }
+        }
+    }
+}

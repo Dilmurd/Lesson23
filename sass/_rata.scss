@@ -1,0 +1,12 @@
+.rata{
+    margin-top: 136px;
+    .rata__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 0 30px;
+        .rata__item{
+            border-bottom: 1px solid #E6E8EC;
+        }
+    }
+}
